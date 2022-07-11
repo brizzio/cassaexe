@@ -1,0 +1,12 @@
+{
+  "name": "cashier-nw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "dev": "nw src/",
+    "prod": "nwbuild --platforms win64 --buildDir dist/ src/"
+  },
+  "author": "",
+  "license": "ISC"
+}
